@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[VehicleModel]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [MakeId] NVARCHAR(50) NOT NULL, 
+    [Name] NVARCHAR(50) NOT NULL, 
+    [Abrv] NVARCHAR(50) NOT NULL
+)
